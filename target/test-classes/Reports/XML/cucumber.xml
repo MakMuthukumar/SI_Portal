@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="88.387999">
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Launching application" time="10.494454">
+        <system-out><![CDATA[Given Launch the url........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Login Screen Content" time="0.765143">
+        <system-out><![CDATA[Then Validate Login Page Title is displayed.................................passed
+And Validate Email Field is displayed.......................................passed
+And Validate Password Field is displayed....................................passed
+And Validate Remember Me Checkbox is displayed..............................passed
+And Validate Forgot Password Link is displayed..............................passed
+And Validate FAQ Link is displayed..........................................passed
+And Validate Login Button is displayed......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Tapping only Login Button" time="10.246051">
+        <system-out><![CDATA[When Click On Login Button..................................................passed
+Then Validate Error Text when Tried with Invalid Username and Invalid Password.passed
+And Validate Error Text when Tried with Invalid Password and Invalid Username.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Login with Invalid Username and Valid Password" time="10.476918">
+        <system-out><![CDATA[When Enter Invalid Username.................................................passed
+And Enter Valid Password....................................................passed
+And Click On Login Button...................................................passed
+Then Validate Error Text when Tried with Invalid Username and Valid Password.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Login with Valid Username and Invalid Password" time="10.529903">
+        <system-out><![CDATA[When Clear the Text in Username Field.......................................passed
+And Clear the Text in Password Field........................................passed
+And Enter Valid Username....................................................passed
+And Enter Invalid Password..................................................passed
+And Click On Login Button...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Login with Invalid Username and Invalid Password" time="10.468479">
+        <system-out><![CDATA[When Clear the Text in Username Field.......................................passed
+And Clear the Text in Password Field........................................passed
+And Enter Invalid Username..................................................passed
+And Enter Invalid Password..................................................passed
+And Click On Login Button...................................................passed
+Then Validate Error Text when Tried with Invalid Username and Valid Password.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Forget Password" time="16.648111">
+        <system-out><![CDATA[When Click on Forget Password...............................................passed
+Then Verify Forget Email Address Field is displayed.........................passed
+When Enter Forget Email Address.............................................passed
+Then Verify Reset Password Button is displayed..............................passed
+When Click On Reset Password Button.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Remember Me" time="0.093314">
+        <system-out><![CDATA[When Click on Remember Me...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate SalesIntel application Valid User Username and Valid Password" time="10.597651">
+        <system-out><![CDATA[When Click on Remember Me...................................................passed
+And Clear the Text in Username Field........................................passed
+And Clear the Text in Password Field........................................passed
+And Enter Valid Username....................................................passed
+And Enter Valid Password....................................................passed
+And Click On Login Button...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Logout" time="8.067975">
+        <system-out><![CDATA[When Click On Setting Options...............................................passed
+And Click On Logout Options.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
